@@ -15,8 +15,8 @@ $primary-color: #0073e6;
         display: flex;
         overflow-x: auto;
         gap: 20px;
-        justify-content: flex-start; 
-        flex-wrap: nowrap; 
+        justify-content: flex-start;
+        flex-wrap: nowrap;
         padding: 0 20px;
     }
 
@@ -32,7 +32,7 @@ $primary-color: #0073e6;
 }
 
 .speaker-card {
-    flex: 0 0 calc(20% - 20px); 
+    flex: 0 0 calc(20% - 20px);
     padding: 15px;
     background-color: $speaker-card-color;
     border-radius: 10px;
@@ -58,7 +58,7 @@ $primary-color: #0073e6;
 
 .modal {
     position: absolute;
-    top: 100px; 
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
@@ -123,5 +123,14 @@ $primary-color: #0073e6;
         flex: 1;
         padding-left: 20px;
         text-align: left;
+    }
+
+    .modal__social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .social-icon {
+        font-size: 1.5rem;
     }
 }

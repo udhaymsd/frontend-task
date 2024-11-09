@@ -14,7 +14,7 @@
         <p>Speakers are core contributors and industry thought leaders working at <a href="#">companies</a> that push for innovation.</p>
     </header>
 
-    <!-- Modal for Speaker Details (Popover Style Above Slider) -->
+    <!-- Modals for Speaker Details (Popover Style Above Slider) -->
     <div class="modal" id="speaker1-modal" hidden>
         <div class="modal__content">
             <button class="modal__close" onclick="closeModal('speaker1')">&times;</button>
@@ -38,9 +38,100 @@
         </div>
     </div>
 
+    <div class="modal" id="speaker2-modal" hidden>
+        <div class="modal__content">
+            <button class="modal__close" onclick="closeModal('speaker2')">&times;</button>
+            <div class="modal__details">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnWe_4LMkil7nHXS55GAR5TamfPu1xMl6_g&s" alt="Elon Musk" class="modal__image">
+                <div class="modal__info">
+                    <h2 class="modal__name">Elon Musk</h2>
+                    <p class="modal__title">CEO</p>
+                    <p class="modal__company">SpaceX</p>
+                    <div class="modal__social-icons">
+                        <span class="social-icon">🔥</span>
+                        <span class="social-icon">🚀</span>
+                        <span class="social-icon">🔧</span>
+                        <span class="social-icon">🔗</span>
+                    </div>
+                </div>
+                <div class="modal__bio">
+                    Innovator driving the future of space travel and sustainable technology...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="speaker3-modal" hidden>
+        <div class="modal__content">
+            <button class="modal__close" onclick="closeModal('speaker3')">&times;</button>
+            <div class="modal__details">
+                <img src="https://static.startuptalky.com/2022/05/Satya-Nadella-Success-Story-StartupTalky.jpg" alt="Satya Nadella" class="modal__image">
+                <div class="modal__info">
+                    <h2 class="modal__name">Satya Nadella</h2>
+                    <p class="modal__title">CEO</p>
+                    <p class="modal__company">Microsoft</p>
+                    <div class="modal__social-icons">
+                        <span class="social-icon">💼</span>
+                        <span class="social-icon">🌍</span>
+                        <span class="social-icon">🔧</span>
+                        <span class="social-icon">🔗</span>
+                    </div>
+                </div>
+                <div class="modal__bio">
+                    Transforming Microsoft with a focus on cloud computing, AI, and digital innovation...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="speaker4-modal" hidden>
+        <div class="modal__content">
+            <button class="modal__close" onclick="closeModal('speaker4')">&times;</button>
+            <div class="modal__details">
+                <img src="https://media.licdn.com/dms/image/D4E03AQFrmDuWUxQoMg/profile-displayphoto-shrink_200_200/0/1715645354619?e=2147483647&v=beta&t=_WBVcQpyigwPLI-efv18uQQ3eV_hhzU5DcUlIHl77HA" alt="Sundar Pichai" class="modal__image">
+                <div class="modal__info">
+                    <h2 class="modal__name">Sundar Pichai</h2>
+                    <p class="modal__title">CEO</p>
+                    <p class="modal__company">Google</p>
+                    <div class="modal__social-icons">
+                        <span class="social-icon">🌐</span>
+                        <span class="social-icon">📱</span>
+                        <span class="social-icon">🔧</span>
+                        <span class="social-icon">🔗</span>
+                    </div>
+                </div>
+                <div class="modal__bio">
+                    Leading Google with a vision to organize the world’s information and make it universally accessible...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="speaker5-modal" hidden>
+        <div class="modal__content">
+            <button class="modal__close" onclick="closeModal('speaker5')">&times;</button>
+            <div class="modal__details">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Andy_Jassy.jpg/640px-Andy_Jassy.jpg" alt="Jeff Bezos" class="modal__image">
+                <div class="modal__info">
+                    <h2 class="modal__name">Jeff Bezos</h2>
+                    <p class="modal__title">Founder & Executive Chairman</p>
+                    <p class="modal__company">Amazon</p>
+                    <div class="modal__social-icons">
+                        <span class="social-icon">📦</span>
+                        <span class="social-icon">🛒</span>
+                        <span class="social-icon">🔧</span>
+                        <span class="social-icon">🔗</span>
+                    </div>
+                </div>
+                <div class="modal__bio">
+                    Revolutionizing e-commerce, cloud computing, and space exploration with Amazon and Blue Origin...
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Speaker Slider -->
     <div class="speakers__slider" id="speakersSlider">
-        <!-- Speaker Card 1 -->
         <div class="speaker-card" onclick="openModal('speaker1')">
             <img src="https://cdn.dnaindia.com/sites/default/files/2024/08/24/2647967-image-2024-08-24t105956.865.jpg" alt="Mark Zuckerberg" class="speaker-card__image">
             <h2 class="speaker-card__name">Mark Zuckerberg</h2>
@@ -48,36 +139,32 @@
             <p class="speaker-card__company">Facebook</p>
         </div>
 
-        <!-- Speaker Card 2 -->
         <div class="speaker-card" onclick="openModal('speaker2')">
-            <img src="https://cdn.dnaindia.com/sites/default/files/2024/08/24/2647967-image-2024-08-24t105956.865.jpg" alt="Mark Zuckerberg" class="speaker-card__image">
-            <h2 class="speaker-card__name">Mark Zuckerberg</h2>
-            <p class="speaker-card__title">Chief Marketing Officer</p>
-            <p class="speaker-card__company">Facebook</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnWe_4LMkil7nHXS55GAR5TamfPu1xMl6_g&s" alt="Elon Musk" class="speaker-card__image">
+            <h2 class="speaker-card__name">Elon Musk</h2>
+            <p class="speaker-card__title">CEO</p>
+            <p class="speaker-card__company">SpaceX</p>
         </div>
 
-        <!-- Speaker Card 3 -->
         <div class="speaker-card" onclick="openModal('speaker3')">
-            <img src="https://cdn.dnaindia.com/sites/default/files/2024/08/24/2647967-image-2024-08-24t105956.865.jpg" alt="Mark Zuckerberg" class="speaker-card__image">
-            <h2 class="speaker-card__name">Mark Zuckerberg</h2>
-            <p class="speaker-card__title">Chief Marketing Officer</p>
-            <p class="speaker-card__company">Facebook</p>
+            <img src="https://assets.gqindia.com/photos/64ad547adda916fe08ba20dc/master/pass/Satya-Nadella's-investments.jpg" alt="Satya Nadella" class="speaker-card__image">
+            <h2 class="speaker-card__name">Satya Nadella</h2>
+            <p class="speaker-card__title">CEO</p>
+            <p class="speaker-card__company">Microsoft</p>
         </div>
 
-        <!-- Speaker Card 4 -->
         <div class="speaker-card" onclick="openModal('speaker4')">
-            <img src="https://cdn.dnaindia.com/sites/default/files/2024/08/24/2647967-image-2024-08-24t105956.865.jpg" alt="Mark Zuckerberg" class="speaker-card__image">
-            <h2 class="speaker-card__name">Mark Zuckerberg</h2>
-            <p class="speaker-card__title">Chief Marketing Officer</p>
-            <p class="speaker-card__company">Facebook</p>
+            <img src="https://media.licdn.com/dms/image/D4E03AQFrmDuWUxQoMg/profile-displayphoto-shrink_200_200/0/1715645354619?e=2147483647&v=beta&t=_WBVcQpyigwPLI-efv18uQQ3eV_hhzU5DcUlIHl77HA" alt="Sundar Pichai" class="speaker-card__image">
+            <h2 class="speaker-card__name">Sundar Pichai</h2>
+            <p class="speaker-card__title">CEO</p>
+            <p class="speaker-card__company">Google</p>
         </div>
 
-        <!-- Speaker Card 5 -->
         <div class="speaker-card" onclick="openModal('speaker5')">
-            <img src="https://cdn.dnaindia.com/sites/default/files/2024/08/24/2647967-image-2024-08-24t105956.865.jpg" alt="Mark Zuckerberg" class="speaker-card__image">
-            <h2 class="speaker-card__name">Mark Zuckerberg</h2>
-            <p class="speaker-card__title">Chief Marketing Officer</p>
-            <p class="speaker-card__company">Facebook</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Andy_Jassy.jpg/640px-Andy_Jassy.jpg " alt="Jeff Bezos" class="speaker-card__image">
+            <h2 class="speaker-card__name">Jeff Bezos</h2>
+            <p class="speaker-card__title">Founder & Executive Chairman</p>
+            <p class="speaker-card__company">Amazon</p>
         </div>
     </div>
 
@@ -87,5 +174,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
