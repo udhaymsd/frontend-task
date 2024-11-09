@@ -1,6 +1,7 @@
-pecbee Frontend Task
+ Frontend Task
+ 
 Overview
-This repository contains the solution to the Specbee frontend task, built using React.js for the frontend, SCSS/SASS for styling, and following the BEM naming convention. The application is designed to provide a Speaker Slider component that lists speakers for a conference. Users can click on a speaker card to view more details in a modal popup.
+This repository contains the solution to the  frontend task, built using React.js for the frontend, SCSS/SASS for styling, and following the BEM naming convention. The application is designed to provide a Speaker Slider component that lists speakers for a conference. Users can click on a speaker card to view more details in a modal popup.
 
 Features
 Responsive Design: The application is fully responsive and adapts to various screen sizes.
