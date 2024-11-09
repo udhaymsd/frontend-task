@@ -10,3 +10,5 @@ Modal Popup: When a speaker card is clicked, a modal opens above the slider, sho
 Accessibility: The application follows accessibility best practices.
 SCSS/SASS Styling: The styles are written using SCSS/SASS, ensuring better organization and reusability.
 BEM Naming Convention: The CSS classes follow the BEM (Block, Element, Modifier) naming convention for better readability and maintainability.
+
+Live Link: https://specbee222.netlify.app/
